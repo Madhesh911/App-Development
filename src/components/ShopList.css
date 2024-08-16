@@ -1,0 +1,18 @@
+/* ShopList.css */
+.shop-item {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .shop-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(35, 171, 244, 0.951);
+  }
+  
+  .shop-item img {
+    transition: transform 0.3s;
+  }
+  
+  .shop-item:hover img {
+    transform: scale(1.1);
+  }
+  
